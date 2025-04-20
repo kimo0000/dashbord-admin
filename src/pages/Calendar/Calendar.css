@@ -1,0 +1,24 @@
+.calendar {
+    display: flex;
+    gap: 15px;
+}
+@media (max-width: 765px) {
+    .calendar {
+        flex-direction: column;
+    }
+}
+.demo-app-sidebar {
+    border: none;
+    width: 30%;
+    text-align: center;
+    /* background-color: redو */
+}
+.fc-header-toolbar {
+    display: flex;
+    gap: 12px;
+}
+@media (max-width: 765px) {
+    .demo-app-sidebar {
+        width: 100%;
+    }
+}

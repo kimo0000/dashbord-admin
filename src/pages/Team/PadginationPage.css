@@ -1,0 +1,18 @@
+.padgination {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 12px;
+}
+.padgination svg {
+    cursor: pointer;
+    font-size: 18px;
+    opacity: .5;
+    transition: opacity .2s;
+}
+.padgination svg:hover {
+    opacity: 1;
+}
+.padgination span {
+    user-select: none;
+}

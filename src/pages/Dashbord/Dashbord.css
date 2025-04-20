@@ -1,0 +1,24 @@
+.dashbord {
+  height: 100vh;
+  display: grid;
+  grid-template: repeat(2, auto) 1fr / repeat(5, 1fr);
+}
+.dash_title {
+  margin: 0 0 15px;
+  grid-area: 1 / 1 / 2 / -1;
+}
+.btn_download {
+  text-align: right;
+  margin: 10px 0;
+  grid-area: 2 / 1 / 3 / -1;
+}
+.btn_download button {
+  align-items: center;
+  gap: 12px;
+}
+.dashbord_contain {
+  grid-area: 3 / 1 / -1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

@@ -1,0 +1,63 @@
+.Row_two {
+  display: flex;
+  gap: 15px;
+}
+@media (max-width: 935px) {
+  .Row_two {
+    flex-direction: column;
+  }
+}
+.line_chart {
+  width: 60%;
+  position: relative;
+  background-color: #373232;
+  border-radius: 12px;
+  padding: 12px;
+}
+@media (max-width: 935px) {
+  .line_chart {
+    width: 100%;
+  }
+}
+.down_btn {
+  display: inline-block;
+  color: #fff;
+  opacity: .5;
+  transition: opacity .2s;
+  cursor: pointer;
+  z-index: 999;
+}
+.down_btn:hover {
+  opacity: 1;
+}
+.recent_transaction {
+  width: 40%;
+  max-height: 420px;
+  flex: 1;
+  overflow-y: hidden;
+}
+@media (max-width: 935px) {
+  .recent_transaction {
+    width: 100%;
+  }
+}
+.transactions {
+  padding: 12px;
+  font-size: 14px;
+  max-height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+  overflow-y: auto;
+}
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  gap: 12px;
+  padding: 12px;
+  background-color: #c5acac;
+  border-radius: 12px;
+}

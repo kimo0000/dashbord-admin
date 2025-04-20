@@ -1,0 +1,17 @@
+.app {
+    display: grid;
+    grid-template: auto 1fr / repeat(10, 1fr);
+}
+.header_nav {
+    grid-area: 1 / 1 / 2 / -1;
+}
+.sidebar {
+    margin-top: 75px;
+    grid-area: 2 / 1 / -1 / 2;
+}
+.content {
+    height: 100vh;
+    margin: 70px 0 0;
+    padding: 15px;
+    grid-area: 2 / 2 / -1 / -1;
+}

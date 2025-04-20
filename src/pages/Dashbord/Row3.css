@@ -1,0 +1,22 @@
+.Row_three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.pie,
+.bar {
+  padding: 12px;
+  flex: 1;
+  background-color: #373232;
+  width: 100%;
+  height: 430px;
+  border-radius: 12px;
+}
+@media (max-width: 935px) {
+  .Row_three {
+    flex-direction: column;
+  }
+}

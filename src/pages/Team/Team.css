@@ -1,0 +1,52 @@
+table {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+th {
+    border-color: black;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+tr:hover {
+    transition: all .2s;
+    background-color: #777;
+}
+td button {
+    padding: 5px 8px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: #ddd;
+    opacity: .5;
+    cursor: pointer;
+    transition: opacity .2s;
+    z-index: 99;
+}
+td button:hover {
+    opacity: 1;
+}
+.pagination {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.person_age {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: .2s;
+}
+.person_arrow {
+    opacity: .5;
+    transition: .2s;
+}
+.person_arrow:hover {
+    opacity: 1;
+}
+.person_age:hover .person_arrow {
+    font-size: 15px;
+}
